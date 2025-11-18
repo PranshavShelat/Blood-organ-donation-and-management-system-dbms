@@ -7,7 +7,7 @@ def get_db_connection():
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="LAPTOP!@#$%",
+            password="DataBasePassword",
             database="blood_bank_db_v2"
         )
         return conn
